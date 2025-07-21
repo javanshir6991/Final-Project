@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,4 +51,101 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  font-family: "Rethink Sans", sans-serif;
+}
+
+header .container-fluid {
+  background-color: black;
+  padding-left: 50px;
+  padding-right: 0px;
+}
+header .container-fluid .hrefs {
+  display: flex;
+  gap: 30px;
+}
+header .container-fluid .hrefs a {
+  font-size: 23px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+header .container-fluid .hrefs a:hover {
+  color: palevioletred;
+}
+header .container-fluid h6 {
+  font-size: 40px;
+}
+header .container-fluid .search a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+header .container-fluid .search a svg {
+  fill: white;
+  scale: 0.3;
+}
+header .container-fluid .search a span {
+  color: white;
+  font-size: 23px;
+  font-weight: 400;
+}
+header .container-fluid .support {
+  display: flex;
+  margin-left: 290px;
+  flex-direction: column;
+  gap: 12px;
+  align-items: end;
+}
+header .container-fluid .support h1 {
+  font-size: 20px;
+  color: palevioletred;
+  font-weight: 600;
+}
+header .container-fluid .support p {
+  font-size: 26px;
+  color: white;
+  font-weight: 800;
+}
+header .container-fluid .btn-group button {
+  background-color: rgb(211, 52, 105);
+  border: 0px;
+}
+header .container-fluid .btn-group button:active {
+  background-color: palevioletred;
+}
+header .container-fluid .btn-group ul {
+  background-color: #222;
+}
+header .container-fluid .btn-group ul li {
+  padding: 24px;
+}
+header .container-fluid .btn-group ul li a {
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
+}
+header .container-fluid .btn-1 {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: 0px;
+  color: white;
+}
+header .container-fluid .btn-1 span {
+  font-size: 20px;
+}
+header .container-fluid .btn-1 img {
+  scale: 0.7;
+}
+header .container-fluid .btn-2 {
+  background-color: black;
+  border: 0px;
+  color: white;
+}
+header .container-fluid .btn-2 img {
+  scale: 0.4;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,95 @@
+
+body{font-family: "Rethink Sans", sans-serif;}
+
+header{
+    
+    .container-fluid{
+        background-color: black;
+        padding-left: 50px;
+        padding-right: 0px;
+        
+        
+        .navbar-brand{}
+        .hrefs{
+            display: flex;
+            gap: 30px;
+
+            a{
+                font-size: 23px;
+                font-weight: 600;
+                text-decoration: none;
+                color: white;
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    color: palevioletred;
+                }
+            }
+        }
+        h6{
+            font-size: 40px;
+        }
+        .search{
+            
+            a{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                
+                svg{fill: white;
+                scale: 0.3;}
+                span{color: white;
+                font-size: 23px;
+                font-weight: 400;}
+                
+            }
+            
+        }
+        .support{
+            display: flex;
+            margin-left: 290px;
+            flex-direction: column;
+            gap: 12px;
+            align-items: end;
+            h1{font-size: 20px;
+                color: palevioletred;
+            font-weight: 600;}
+            p{font-size: 26px;
+                color: white;
+            font-weight: 800;}
+        }
+        .btn-group{
+            button{background-color: rgb(211, 52, 105);
+            border: 0px;
+        &:active{background-color: palevioletred;}}
+            ul{
+                background-color: #222;
+                
+                
+                li{padding: 24px;
+                    a{  color: white;
+                        
+                        font-size: 23px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .btn-1{
+            display: flex;
+            align-items: center;
+            background-color: black;
+        border: 0px;
+    color: white;
+    span{font-size: 20px;}
+    img{scale: 0.7;}
+    }
+        .btn-2{background-color: black;
+          
+        border: 0px;
+    color: white;
+    img{scale: 0.4;}
+    }
+
+
+    }
+}
