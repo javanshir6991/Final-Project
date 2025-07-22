@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar fixed-top bg-body-tertiary">
+        <nav class="navbar fixed-top bg-body-primary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="https://xstore.b-cdn.net/elementor3/games-dark/wp-content/uploads/sites/6/2024/07/Logo.png" alt=""></a>
                 <div class="hrefs">
@@ -50,19 +50,49 @@
 
                 <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                    <div class="sign">
+                        <img src="../src/assets/add-user.png" alt=""><span>SIGN IN</span>
+                    </div>
+                    
+                    
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body">
-                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                    <div class="mb-3">
+                      <label for="basic-url" class="form-label">Username or email *</label>
+                      <div class="input-group">
+                        
+                        <input type="email" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                      </div>
+                      <div class="form-text" id="basic-addon4"></div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="basic-url" class="form-label">Password *</label>
+                      <div class="input-group">
+                        
+                        <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                      </div>
+                      <div class="form-text" id="basic-addon4"></div>
+                    </div>
+                    <input type="checkbox" name="" id="">
+                    <span>Remember me</span>
+                    <br>
+                    <hr>
+                    
+
+                    <button class="loqin">Login</button>
+                    <hr>
+                    
+                    <a href="">Lost your password ?</a>
+                    
                   </div>
                 </div>
 
-                <button class="btn-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="../src/assets/shopping-bag (1).png" alt=""></button>
+                <button class="btn-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="../src/assets/shopping-bag (3).png" alt=""></button>
 
                 <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body">
@@ -75,7 +105,9 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        
+    </main>
     <footer></footer>
     
     <script src="../src/js/app.js"></script>

@@ -55,12 +55,19 @@ table {
 
 body {
   font-family: "Rethink Sans", sans-serif;
+  background-color: #222;
+  height: 3000px;
 }
 
+header {
+  background-color: black;
+}
 header .container-fluid {
   background-color: black;
+  margin: 20px;
+  border-radius: 25px;
   padding-left: 50px;
-  padding-right: 0px;
+  padding-right: 30px;
 }
 header .container-fluid .hrefs {
   display: flex;
@@ -74,7 +81,7 @@ header .container-fluid .hrefs a {
   transition: 0.3s ease-in-out;
 }
 header .container-fluid .hrefs a:hover {
-  color: palevioletred;
+  color: #00ff88;
 }
 header .container-fluid h6 {
   font-size: 40px;
@@ -102,7 +109,7 @@ header .container-fluid .support {
 }
 header .container-fluid .support h1 {
   font-size: 20px;
-  color: palevioletred;
+  color: #00ff88;
   font-weight: 600;
 }
 header .container-fluid .support p {
@@ -111,11 +118,11 @@ header .container-fluid .support p {
   font-weight: 800;
 }
 header .container-fluid .btn-group button {
-  background-color: rgb(211, 52, 105);
+  background-color: #00664d;
   border: 0px;
 }
 header .container-fluid .btn-group button:active {
-  background-color: palevioletred;
+  background-color: #00ff88;
 }
 header .container-fluid .btn-group ul {
   background-color: #222;
@@ -147,5 +154,54 @@ header .container-fluid .btn-2 {
   color: white;
 }
 header .container-fluid .btn-2 img {
-  scale: 0.4;
+  scale: 0.8;
+}
+header .container-fluid .offcanvas.offcanvas-end {
+  background-color: black;
+}
+header .container-fluid .offcanvas.offcanvas-end .sign {
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+}
+header .container-fluid .offcanvas.offcanvas-end .sign span {
+  font-size: 20px;
+  color: white;
+}
+header .container-fluid .offcanvas.offcanvas-end .sign img {
+  scale: 0.7;
+}
+header .container-fluid .offcanvas.offcanvas-end .btn-close {
+  border-radius: 100%;
+  background-color: red;
+}
+header .container-fluid .offcanvas.offcanvas-end .mb-3 .form-label {
+  color: white;
+}
+header .container-fluid .offcanvas.offcanvas-end .mb-3 .input-group {
+  background-color: #222;
+  margin-bottom: 30px;
+}
+header .container-fluid .offcanvas.offcanvas-end .mb-3 input {
+  color: white;
+  border: 0px;
+  background-color: #222;
+}
+header .container-fluid .offcanvas.offcanvas-end span {
+  font-size: 20px;
+  margin-left: 12px;
+  color: white;
+}
+header .container-fluid .offcanvas.offcanvas-end .loqin {
+  color: white;
+  font-size: 24px;
+  height: 60px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #222;
+}
+header .container-fluid .offcanvas.offcanvas-end a {
+  text-decoration: none;
+  color: white;
+  margin-left: 110px;
 }/*# sourceMappingURL=style.css.map */

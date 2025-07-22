@@ -1,12 +1,20 @@
+$green-color: #00ff88;
+$green-dark: #00664d;
 
-body{font-family: "Rethink Sans", sans-serif;}
+$boz: #222;
+body{font-family: "Rethink Sans", sans-serif;
+background-color: $boz;
+height: 3000px;}
 
 header{
+    background-color: black;
     
     .container-fluid{
         background-color: black;
+        margin: 20px;
+        border-radius: 25px;
         padding-left: 50px;
-        padding-right: 0px;
+        padding-right: 30px;
         
         
         .navbar-brand{}
@@ -21,7 +29,7 @@ header{
                 color: white;
                 transition: 0.3s ease-in-out;
                 &:hover{
-                    color: palevioletred;
+                    color:$green-color;
                 }
             }
         }
@@ -51,16 +59,16 @@ header{
             gap: 12px;
             align-items: end;
             h1{font-size: 20px;
-                color: palevioletred;
+                color: $green-color;
             font-weight: 600;}
             p{font-size: 26px;
                 color: white;
             font-weight: 800;}
         }
         .btn-group{
-            button{background-color: rgb(211, 52, 105);
+            button{background-color: $green-dark;
             border: 0px;
-        &:active{background-color: palevioletred;}}
+        &:active{background-color:$green-color}}
             ul{
                 background-color: #222;
                 
@@ -87,7 +95,52 @@ header{
           
         border: 0px;
     color: white;
-    img{scale: 0.4;}
+    img{scale: 0.8;}
+    }
+    .offcanvas.offcanvas-end{
+        
+        .sign{
+            display: flex;
+            align-items: center;
+            margin-left: 110px;
+           
+            span{font-size: 20px;
+            color: white;}
+            img{scale: 0.7;}
+        }
+        .btn-close{
+            border-radius: 100%;
+        background-color: red;}
+        .mb-3{
+            
+            .form-label{color: white;}
+            .input-group{
+                background-color: $boz;
+                margin-bottom: 30px;
+                
+            }
+    
+            input{
+                color: white;
+                border: 0px;
+                background-color: $boz;
+            }
+            .form-text{}
+        }
+        span{font-size: 20px;
+            margin-left: 12px;
+        color: white;}
+        background-color: black;
+        .loqin{color: white;
+            font-size: 24px;
+            height: 60px;
+            width: 100%;
+            border-radius: 10px;
+        background-color: $boz;}
+        a{text-decoration: none;
+        color: white;
+    margin-left: 110px;}
+
     }
 
 
