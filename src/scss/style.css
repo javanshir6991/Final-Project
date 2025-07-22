@@ -56,7 +56,6 @@ table {
 body {
   font-family: "Rethink Sans", sans-serif;
   background-color: #222;
-  height: 3000px;
 }
 
 header {
@@ -65,6 +64,7 @@ header {
 header .container-fluid {
   background-color: black;
   margin: 20px;
+  height: 110px;
   border-radius: 25px;
   padding-left: 50px;
   padding-right: 30px;
@@ -86,16 +86,23 @@ header .container-fluid .hrefs a:hover {
 header .container-fluid h6 {
   font-size: 40px;
 }
-header .container-fluid .search a {
+header .container-fluid .search {
   display: flex;
   align-items: center;
-  text-decoration: none;
+  align-items: center;
 }
-header .container-fluid .search a svg {
-  fill: white;
-  scale: 0.3;
+header .container-fluid .search button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-header .container-fluid .search a span {
+header .container-fluid .search button:active {
+  color: black;
+}
+header .container-fluid .search img {
+  scale: 0.4;
+}
+header .container-fluid .search span {
   color: white;
   font-size: 23px;
   font-weight: 400;
@@ -204,4 +211,166 @@ header .container-fluid .offcanvas.offcanvas-end a {
   text-decoration: none;
   color: white;
   margin-left: 110px;
+}
+header .container-fluid .shop-btn {
+  background-color: black;
+  border: 0px;
+  color: white;
+}
+header .container-fluid .shop-btn img {
+  scale: 0.8;
+}
+header .container-fluid .bag-img {
+  scale: 0.7;
+  margin-left: 40px;
+}
+header .container-fluid h5 {
+  font-size: 25px;
+  color: white;
+}
+header .container-fluid h3 {
+  font-size: 23px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+header .container-fluid .cart-btn {
+  color: black;
+  font-size: 27px;
+  font-weight: 600;
+  height: 60px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #00ff88;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom {
+  background-color: black;
+  height: 900px;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .roww {
+  display: flex;
+  width: 200px;
+  gap: 53px;
+  margin-top: 50px;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .roww .cartt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .roww .cartt img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 270px;
+  width: 270px;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .roww .cartt h1 {
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .roww .cartt p {
+  font-size: 20px;
+  color: gray;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .last {
+  font-size: 33px;
+  margin-left: 800px;
+  margin-top: 70px;
+  background-color: #00664d;
+  color: white;
+  border: 0px;
+  padding: 16px;
+  border-radius: 13px;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .btn-close {
+  background-color: red;
+  border-radius: 100%;
+  scale: 2;
+  margin-right: 20px;
+}
+header .container-fluid .offcanvas.offcanvas-top.custom .pop {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+header .container-fluid .offcanvas-header.custom {
+  display: flex;
+  flex-direction: column;
+}
+header .container-fluid .offcanvas-header.custom h4 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 30px;
+}
+header .container-fluid .offcanvas-header.custom .category {
+  display: flex;
+  flex-direction: row;
+}
+header .container-fluid .offcanvas-header.custom .category .dropdown button {
+  border-radius: 0px;
+  border-right: 1px solid black;
+  background-color: #222;
+  font-size: 20px;
+}
+header .container-fluid .offcanvas-header.custom .category .dropdown ul {
+  background-color: black;
+  border: 1px solid gray;
+}
+header .container-fluid .offcanvas-header.custom .category .dropdown ul li a {
+  font-size: 20px;
+  margin: 12px;
+  color: white;
+}
+header .container-fluid .offcanvas-header.custom .category .dropdown ul li a:hover {
+  background-color: #00664d;
+}
+header .container-fluid .offcanvas-header.custom .category input {
+  background-color: #222;
+  border: 0px;
+  font-size: 23px;
+  color: white;
+  width: 700px;
+  padding-left: 17px;
+}
+header .container-fluid .offcanvas-header.custom .category button {
+  background-color: #00664d;
+  color: white;
+  border: 0px;
+}
+header .container-fluid .offcanvas-header.custom .trend {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .container-fluid .offcanvas-header.custom .trend span {
+  font-size: 23px;
+  color: gray;
+  margin-right: 40px;
+}
+header .container-fluid .offcanvas-header.custom .trend button {
+  border: 0px;
+  width: 120px;
+  padding: 12px;
+  margin: 10px;
+}
+header .container-fluid .offcanvas-header.custom .trend button:hover {
+  background-color: #00664d;
+  color: white;
+}
+header .container-fluid .btn.btn-primar.custom {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24px;
+  border: 0px;
+  color: white;
+}
+header .container-fluid .btn.btn-primar.custom img {
+  scale: 0.4;
 }/*# sourceMappingURL=style.css.map */

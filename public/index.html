@@ -19,16 +19,86 @@
                     <a href="">Shop</a>
                     <a href="">FAQs</a>
                     <a href="">Contacts</a>
+                    
                 </div>
                 <h6>|</h6>
-                <div class="search">
-                    <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
-<path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
-                        </svg>
-                        <span>Search</span>
-                    </a>
+                
+<button class="btn btn-primar custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+  <img src="../src/assets/search-interface-symbol (1).png" alt=""><span>Search</span>
+</button>
+
+<div  class="offcanvas offcanvas-top custom"  data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas-header custom">
+  <h4>What Are You Looking For?</h4>
+              
+              <div class="category">
+                <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    All categories
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action RPG</a></li>
+    <li><a class="dropdown-item" href="#">Multiplayer</a></li>
+    <li><a class="dropdown-item" href="#">Indie</a></li>
+    <li><a class="dropdown-item" href="#">Retro</a></li>
+    <li><a class="dropdown-item" href="#">MMO RPG</a></li>
+    <li><a class="dropdown-item" href="#">Platformer</a></li>
+    <li><a class="dropdown-item" href="#">Strategy</a></li>
+    <li><a class="dropdown-item" href="#">Third Person Shooter</a></li>
+    <li><a class="dropdown-item" href="#">First Person Shooter</a></li>
+  </ul>
                 </div>
+                <input type="text" placeholder="Search for products">
+                <button>SEARCH</button>
+              </div>
+              <div class="trend">
+                <span>TRENDING SEARCHES:</span>
+              <button>Action</button>
+              <button>Platformer</button>
+              <button>Racing</button>
+              <button>Football</button>
+              </div> 
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body custom">
+    <h1 class="pop">Popular Categories</h1>
+    <div class="roww">
+      <div class="cartt">
+        <img src="https://i.pinimg.com/originals/22/a7/8f/22a78fd2de1ab9dad715c92a6278469a.jpg" alt="">
+        <h1>ACTION RPG</h1>
+        <p>4 products</p>
+      </div>
+      <div class="cartt">
+        <img src="https://i.pinimg.com/originals/22/a7/8f/22a78fd2de1ab9dad715c92a6278469a.jpg" alt="">
+        <h1>ACTION RPG</h1>
+        <p>4 products</p>
+      </div>
+      <div class="cartt">
+        <img src="https://i.pinimg.com/originals/22/a7/8f/22a78fd2de1ab9dad715c92a6278469a.jpg" alt="">
+        <h1>ACTION RPG</h1>
+        <p>4 products</p>
+      </div>
+      <div class="cartt">
+        <img src="https://i.pinimg.com/originals/22/a7/8f/22a78fd2de1ab9dad715c92a6278469a.jpg" alt="">
+        <h1>ACTION RPG</h1>
+        <p>4 products</p>
+      </div>
+      
+      <div class="cartt">
+        <img src="https://i.pinimg.com/originals/22/a7/8f/22a78fd2de1ab9dad715c92a6278469a.jpg" alt="">
+        <h1>ACTION RPG</h1>
+        <p>4 products</p>
+      </div>
+      <div class="cartt">
+        <img src="https://i.pinimg.com/originals/22/a7/8f/22a78fd2de1ab9dad715c92a6278469a.jpg" alt="">
+        <h1>ACTION RPG</h1>
+        <p>4 products</p>
+      </div>
+    </div>
+    <button class="last">View All Categories</button>
+  </div>
+</div>
+
                 <div class="support">
                     <h1>Support 24/7</h1>
                     <p>+12 007-499-444</p>
@@ -88,17 +158,24 @@
                   </div>
                 </div>
 
-                <button class="btn-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><img src="../src/assets/shopping-bag (3).png" alt=""></button>
+                <button class="shop-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><img src="../src/assets/shopping-bag (3).png" alt=""></button>
 
-                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                   <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+                    <img class="bag-img" src="../src/assets/shopping-bag (3).png" alt="">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">SHOPPING CART</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
                   <div class="offcanvas-body">
-                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                    
+                    <h3>No products in the cart.</h3>
+                    <hr>
+                    <br>
+                    <button class="cart-btn">Return To Shop</button>
                   </div>
                 </div>
+
+                
                 
 
                 
