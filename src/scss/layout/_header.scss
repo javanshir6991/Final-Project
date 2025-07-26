@@ -18,7 +18,7 @@ header{
         padding-right: 30px;
         
         
-        .navbar-brand{}
+        
         .hrefs{
             display: flex;
             gap: 30px;
@@ -184,7 +184,7 @@ header{
 
 .offcanvas.offcanvas-top.custom{
     background-color: black;
-    height: 900px;
+    height: 1000px;
     .roww{
         display: flex;
         
@@ -263,7 +263,7 @@ header{
                     li{
                         
                         
-                        a{font-size: 20px;
+                        a{  font-size: 20px;
                             margin: 12px;
                             color: white;
                             &:hover{
