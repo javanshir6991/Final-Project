@@ -383,6 +383,7 @@ footer {
 .first {
   display: flex;
   padding-top: 70px;
+  padding-bottom: 60px;
 }
 .first .x-store {
   width: 400px;
@@ -471,6 +472,76 @@ footer {
   color: gray;
 }
 .first .navigator-b a:hover {
+  color: #00ff88;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 30px;
+  border-top: 1px solid #222;
+}
+.second .drop {
+  display: flex;
+  gap: 20px;
+}
+.second .drop .btn-group.dropend li {
+  font-size: 20px;
+  padding: 10px;
+}
+.second .drop .btn-group.dropend li:hover {
+  background-color: #00664d;
+}
+.second .drop .btn-group.dropend li:hover a {
+  color: white;
+}
+.second .drop .btn-group.dropend li a {
+  text-decoration: none;
+  color: black;
+}
+.second .drop .btn-group.dropend button {
+  border: 0px;
+  font-size: 20px;
+  padding: 13px;
+  background-color: #222;
+}
+.second .visa {
+  display: flex;
+  gap: 20px;
+}
+.second .visa img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 80px;
+}
+.second .instagram img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 60px;
+}
+
+.third {
+  border-top: 1px solid #222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 30px;
+}
+.third span {
+  font-size: 20px;
+  color: gray;
+}
+.third .about {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.third .about a {
+  text-decoration: none;
+  color: gray;
+}
+.third .about a:hover {
   color: #00ff88;
 }
 

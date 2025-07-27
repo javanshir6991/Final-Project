@@ -2,8 +2,10 @@ footer{
     margin-top: 90px;
     background-color: black;
 }
-.first{ display: flex;
+.first{ 
+    display: flex;
     padding-top: 70px;
+    padding-bottom: 60px;
     .x-store{
         
         width: 400px;
@@ -94,5 +96,70 @@ footer{
         }
         border-left: 1px solid $boz;
     }
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 30px;
+    border-top: 1px solid $boz;
+    .drop{
+        display: flex;
+        gap: 20px;
+    .btn-group.dropend{
+        li{
+            font-size: 20px;
+            padding: 10px;
+            &:hover{background-color: $green-dark;
+            a{color: white;}}
+            a{
+                text-decoration: none;
+                color: black;
+                
+            }
+        }
+        button{
+            border: 0px;
+            font-size: 20px;
+            padding: 13px;
+            background-color: $boz;
+        }
+    }}
+    .visa{
+        display: flex;
+        gap: 20px;
+        img{object-fit: cover;
+        width: 80px;}
+    }
+    .instagram{
+        img{object-fit: cover;
+        width: 60px;}
+    }
+
+
+}
+.third{
+    border-top: 1px solid $boz;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 30px;
+ span{
+    font-size: 20px;
+    color: gray;
+ }  
+ .about{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    
+    a{
+        text-decoration: none;
+        color: gray;
+        &:hover{
+            color: $green-color;
+        }
+    }
+ } 
 }
 
