@@ -46,11 +46,262 @@ margin-left: 20px;}
         font-size: 73px;
     color: white;
     font-weight: 700;
-    margin-left: 30px;
+    margin-left: 26px;
     margin-top: 130px;
     
     
     
     margin-top: 250px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
+.factp{
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: gray;
+}
+.stats-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  
+  padding: 25px;
+  padding-right: 0px;
+  border-radius: 20px;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.stat-box-L{
+  background-color: #111;
+  padding: 30px;
+ height: 800px;
+  border-radius: 12px;
+  color: white;
+  width: 910px;
+  padding-top: 100px;
+  transition: all 0.3s ease;
+  
+
+  .icon {
+    font-size: 92px;
+    color: #a77bff;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+
+  .number {
+    font-size: 230px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #f8f8f8, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+  }
+  .piy{
+    font-size: 30px;
+    color: white;
+    color: gray;
+    font-weight: 600;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.sag4lu{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    .stat-box {
+  background-color: #111;
+  padding: 50px;
+  padding-top: 0px;
+  border-radius: 12px;
+  width: 430px;
+  height: 392px;
+  
+  color: white;
+  
+  
+  transition: all 0.3s ease;
+  
+
+  svg {
+    
+    margin-bottom: 50px;
+    display: inline-block;
+    fill: $green-dark;
+  margin-top: 40px;
+    scale: 1.4;
+
+    
+  }
+
+  .number {
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #f8f8f8, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 29px;
+  }
+  .pi {
+    line-height: 33px;
+    font-size: 22px;
+    color: #bbb;
+    font-weight: 600;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+}
+.numb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 30px;
+    background-color: black;
+    .left{
+        
+        padding-right: 30px;
+    h1{
+        font-size: 60px;
+        color: white;
+        font-weight: 600;
+    }
+    p{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 26px;
+        color: gray;
+        line-height: 36px;
+    }
+    button{
+        padding: 20px 30px;
+        font-size: 25px;
+        color: white;
+        border-radius: 12px;
+        border: 0px;
+        background-color: $green-dark;
+        &:hover{
+            background-color: $green-color;
+            color: black;
+            font-weight: 600;
+        }
+
+    }
+    }
+    .right{
+        img{
+            object-fit: cover;
+            width: 1200px;
+            border-radius: 20px;
+        }
+    }
+}
+.talk{
+    background-color: black;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 62px;
+}
+
+.players{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    
+
+    .testimonial-card {
+  display: flex;
+  gap: 1rem;
+  background-color: #1e1e25;
+  border-radius: 16px;
+  padding: 45px;
+  max-width: 600px;
+  
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-21px);
+  }
+
+  .user-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+
+  .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .testimonial-text {
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 1.4;
+      color: #f1f1f1;
+    }
+
+    .testimonial-link {
+      margin-top: 0.5rem;
+      color: #7c3aed;
+      text-decoration: none;
+      font-size: 20px;
+      margin-top: 23px;
+      font-weight: 600;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #a78bfa;
+        text-decoration: underline;
+      }
+    }
+
+    .testimonial-author {
+      font-size: 20px;
+      color: #999;
+      margin-top: 0.3rem;
+    }
+  }
+}
+}
+.noqteler{
+    text-align: center;
+    background-color: black;
+}
+footer{
+    margin-top: 0px;
+    padding-top: 90px;
+}
+
+
