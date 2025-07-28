@@ -1522,4 +1522,255 @@ main {
 footer {
   margin-top: 0px;
   padding-top: 90px;
+}
+
+.category {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 250px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  margin-top: 55px;
+}
+.categories .category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: flipIn 1s ease-out forwards;
+}
+.categories .category-item img {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  transition: filter 0.6s ease;
+}
+.categories .category-item p {
+  color: white;
+  font-size: 23px;
+  margin-top: 15px;
+  font-weight: 600;
+}
+.categories .category-item a:hover {
+  filter: brightness(1.6);
+}
+
+@keyframes flipIn {
+  0% {
+    transform: perspective(400px) rotateY(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+    opacity: 1;
+  }
+}
+.droplu {
+  display: flex;
+  justify-content: space-between;
+  margin: 90px 30px;
+  margin-bottom: 0px;
+}
+.droplu h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.droplu .dropdown button {
+  border-radius: 0px;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  padding: 13px;
+  background-color: black;
+}
+.droplu .dropdown button:active {
+  background-color: black;
+}
+.droplu .dropdown ul {
+  color: white;
+  background-color: #00664d;
+  padding: 0px;
+  border-radius: 0px;
+}
+.droplu .dropdown ul li {
+  background-color: black;
+  font-size: 20px;
+}
+.droplu .dropdown ul li:hover {
+  background-color: white;
+}
+.droplu .dropdown ul li:hover a {
+  color: black;
+}
+.droplu .dropdown ul li a {
+  color: white;
+  padding: 9px;
+}
+
+.big {
+  display: flex;
+}
+.big .filter-sidebar {
+  padding: 30px;
+  padding-top: 0px;
+  padding-right: 10px;
+  color: #fff;
+}
+.big .filter-sidebar .filter-group {
+  margin-bottom: 50px;
+}
+.big .filter-sidebar .filter-group h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.big .filter-sidebar .filter-group h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.big .filter-sidebar .filter-group ul.category-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 15px;
+}
+.big .filter-sidebar .filter-group ul.category-list li {
+  line-height: 1.2;
+  margin: 20px 0;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ccc;
+}
+.big .filter-sidebar .filter-group ul.category-list li input[type=checkbox] {
+  accent-color: #00664d;
+  transform: scale(1.2);
+}
+.big .filter-sidebar .filter-group ul.category-list li:hover {
+  color: #fff;
+}
+.big .filter-sidebar hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 20px 0;
+}
+.big .filter-sidebar .price-slider {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.big .filter-sidebar .price-slider input[type=range] {
+  flex: 1;
+  -webkit-appearance: none;
+  height: 4px;
+  background: #5f44ff;
+  border-radius: 5px;
+  outline: none;
+}
+.big .filter-sidebar .price-slider input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #a65eff;
+  cursor: pointer;
+}
+.big .filter-sidebar .price-range-text {
+  margin-top: 12px;
+  font-size: 19px;
+  color: #ccc;
+}
+.big .right {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.big .right .card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 0px;
+  margin-left: 26px;
+  height: 670px;
+  margin-bottom: 32px;
+}
+.big .right .card img {
+  display: block;
+  position: relative;
+}
+.big .right .card .butons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  left: 70px;
+  top: 200px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.big .right .card .butons:hover {
+  opacity: 1;
+}
+.big .right .card button {
+  border: 0px;
+  font-size: 60px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.big .right .card button:hover {
+  scale: 1.05;
+}
+.big .right .card .card-body {
+  background-color: black;
+}
+.big .right .card .card-body h5 {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.big .right .card .card-body p {
+  font-size: 23px;
+}
+.big .right .card .card-body h3 {
+  margin-top: 30px;
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.son {
+  font-size: 24px;
+  color: rgb(202, 202, 202);
+  text-align: center;
+}
+
+.deyisme {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: 900;
+}
+
+.sonbtn {
+  padding: 12px 20px;
+  margin-left: 870px;
+  margin-top: 30px;
+  font-size: 24px;
+  background-color: #00664d;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  margin-bottom: 90px;
+}
+.sonbtn:hover {
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */
