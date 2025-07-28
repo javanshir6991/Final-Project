@@ -1221,4 +1221,79 @@ main {
   color: white;
   font-weight: 600;
   margin-top: 17px;
+}
+
+.yaddan {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.yaddan button {
+  margin-right: 30px;
+  width: 200px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 21px;
+  background-color: #00664d;
+  color: white;
+  height: 50px;
+}
+
+.craft {
+  font-size: 73px;
+  color: white;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: 130px;
+  width: 740px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 35px;
+}
+
+.craftp {
+  font-size: 25px;
+  color: white;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pic {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic span {
+  color: gray;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 680px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 80px;
+}
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.1s ease;
+  border-radius: 12px;
+}
+
+.fact {
+  font-size: 73px;
+  color: white;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: 130px;
+  margin-top: 250px;
+  margin-bottom: 35px;
 }/*# sourceMappingURL=style.css.map */

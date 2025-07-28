@@ -738,3 +738,19 @@ main{
         }
     }
 }
+.yaddan{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+    button{
+        margin-right: 30px;
+        width: 200px;
+        border: 0px;
+        border-radius: 10px;
+        font-size: 21px;
+        background-color: $green-dark;
+        color: white;
+        height: 50px;
+    }
+}
