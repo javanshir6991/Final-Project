@@ -305,10 +305,13 @@ header .container-fluid .offcanvas-header.custom h4 {
   font-size: 40px;
   font-weight: 700;
   margin: 30px;
+  padding-bottom: 0px;
 }
 header .container-fluid .offcanvas-header.custom .category {
   display: flex;
   flex-direction: row;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 header .container-fluid .offcanvas-header.custom .category .dropdown button {
   border-radius: 0px;
@@ -337,6 +340,11 @@ header .container-fluid .offcanvas-header.custom .category input {
   padding-left: 17px;
 }
 header .container-fluid .offcanvas-header.custom .category button {
+  font-size: 20px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #00664d;
   color: white;
   border: 0px;
@@ -376,7 +384,6 @@ header .container-fluid .btn.btn-primar.custom img {
 }
 
 footer {
-  margin-top: 90px;
   background-color: black;
 }
 
@@ -992,6 +999,113 @@ main {
   border: 0px;
   height: 670px;
 }
+.raw .card .offcanvas.offcanvas-end.j, .time .card .offcanvas.offcanvas-end.j {
+  background-color: black;
+  width: 500px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-header.j img, .time .card .offcanvas.offcanvas-end.j .offcanvas-header.j img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .product-title, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .product-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price {
+  margin-bottom: 5px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price .new-price, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price .new-price {
+  font-size: 32px;
+  color: pink;
+  font-weight: bold;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating {
+  margin: 10px 0;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .stars, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .stars {
+  color: #f4c542;
+  font-size: 18px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .review, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .review {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .description, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .description {
+  color: #999;
+  font-size: 15px;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock {
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock .check, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock .check {
+  margin-right: 5px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity {
+  background: #1e1e1e;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity button, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity span, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity span {
+  font-size: 16px;
+  padding: 0 5px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart {
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart:hover, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart:hover {
+  background: #7c3aed;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta {
+  font-size: 24px;
+  color: #ccc;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share {
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon {
+  font-size: 16px;
+  color: #ccc;
+  cursor: pointer;
+}
+.raw .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon:hover, .time .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon:hover {
+  color: #fff;
+}
 .raw .card img, .time .card img {
   display: block;
   position: relative;
@@ -1016,6 +1130,9 @@ main {
   background-color: black;
   padding: 10px;
   color: white;
+  display: flex;
+  align-items: center;
+  height: 80px;
   border-radius: 100%;
   overflow: hidden;
 }
@@ -1192,6 +1309,7 @@ main {
   display: flex;
   margin-top: 50px;
   justify-content: space-evenly;
+  margin-bottom: 60px;
 }
 .from .nintendo .rel {
   position: relative;
@@ -1519,11 +1637,6 @@ main {
   background-color: black;
 }
 
-footer {
-  margin-top: 0px;
-  padding-top: 90px;
-}
-
 .category {
   font-size: 80px;
   color: white;
@@ -1691,12 +1804,118 @@ footer {
   margin-top: 25px;
 }
 .big .right .card {
+  margin-left: 25px;
   border-radius: 15px;
   overflow: hidden;
   border: 0px;
-  margin-left: 26px;
   height: 670px;
-  margin-bottom: 32px;
+}
+.big .right .card .offcanvas.offcanvas-end.j {
+  background-color: black;
+  width: 500px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-header.j img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .product-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price {
+  margin-bottom: 5px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price .new-price {
+  font-size: 32px;
+  color: pink;
+  font-weight: bold;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating {
+  margin: 10px 0;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .stars {
+  color: #f4c542;
+  font-size: 18px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .review {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .description {
+  color: #999;
+  font-size: 15px;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock {
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock .check {
+  margin-right: 5px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity {
+  background: #1e1e1e;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity span {
+  font-size: 16px;
+  padding: 0 5px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart {
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart:hover {
+  background: #7c3aed;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta {
+  font-size: 24px;
+  color: #ccc;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share {
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon {
+  font-size: 16px;
+  color: #ccc;
+  cursor: pointer;
+}
+.big .right .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon:hover {
+  color: #fff;
 }
 .big .right .card img {
   display: block;
@@ -1722,6 +1941,9 @@ footer {
   background-color: black;
   padding: 10px;
   color: white;
+  display: flex;
+  align-items: center;
+  height: 80px;
   border-radius: 100%;
   overflow: hidden;
 }
