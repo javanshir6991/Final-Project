@@ -1995,4 +1995,19 @@ main {
 }
 .sonbtn:hover {
   background-color: green;
+}
+
+.faq-t {
+  margin-top: 220px;
+  font-size: 75px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.pe {
+  margin-top: 25px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
