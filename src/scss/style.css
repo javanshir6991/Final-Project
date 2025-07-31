@@ -2091,8 +2091,22 @@ main {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   position: absolute;
   color: white;
-  font-size: 300px;
-  font-weight: 730;
+  font-size: 310px;
+  font-weight: 740;
   left: 25px;
   bottom: 0px;
+}
+.imgg .help {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 40px;
+  border-radius: 20px;
+  width: 700px;
+  bottom: -20px;
+  right: 90px;
+}
+.imgg .help h1 {
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
