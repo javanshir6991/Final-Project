@@ -2010,4 +2010,32 @@ main {
   font-size: 25px;
   color: white;
   text-align: center;
+}
+
+.accordion.accordion-flush {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+
+.accordion-item {
+  background-color: black;
+  color: gray;
+  width: 1400px;
+}
+.accordion-item .accordion-header h2 {
+  background-color: black;
+}
+.accordion-item .accordion-header button {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  padding: 45px 80px;
+}
+.accordion-item p {
+  font-size: 24px;
+  padding: 30px 80px;
 }/*# sourceMappingURL=style.css.map */

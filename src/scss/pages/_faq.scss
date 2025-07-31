@@ -11,3 +11,35 @@
     color: white;
     text-align: center;
 }
+.accordion.accordion-flush{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 70px;
+margin-bottom: 120px;
+}
+.accordion-item{
+    
+    background-color: black;
+    color: gray;
+    width: 1400px;
+    .accordion-header{
+        
+        h2{
+           background-color: black;
+        }
+        
+        button{
+        background-color: black;
+        color: white;
+        font-size: 30px;
+        padding: 45px 80px;
+
+        }
+    }
+    p{
+        font-size: 24px;
+        padding: 30px 80px;
+    }
+}
