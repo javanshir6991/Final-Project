@@ -1,0 +1,54 @@
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+    margin-bottom: 70px;
+    .alltime{
+        padding-right: 320px;
+        h1{
+            color: $green-color;
+            font-size: 25px;
+            margin-bottom: 13px;
+        }
+        h5{
+            font-size: 70px;
+            color: white;
+            font-weight: 650;
+        }
+    }
+    .sag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 2px solid $green-color;
+        width: 600px;
+        padding-left: 80px;
+        line-height: 33px;
+        font-size: 24px;
+        color: gray;
+    }
+}
+.imgg{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 16px;
+        margin: 30px;
+        height:650px;
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position: absolute;
+        color: white;
+        font-size: 300px;
+        font-weight: 730;
+        left: 25px;
+        bottom: 0px;
+    }
+}

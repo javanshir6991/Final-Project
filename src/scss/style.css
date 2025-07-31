@@ -2038,4 +2038,61 @@ main {
 .accordion-item p {
   font-size: 24px;
   padding: 30px 80px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 230px;
+  margin-bottom: 70px;
+}
+.row1 .alltime {
+  padding-right: 320px;
+}
+.row1 .alltime h1 {
+  color: #00ff88;
+  font-size: 25px;
+  margin-bottom: 13px;
+}
+.row1 .alltime h5 {
+  font-size: 70px;
+  color: white;
+  font-weight: 650;
+}
+.row1 .sag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid #00ff88;
+  width: 600px;
+  padding-left: 80px;
+  line-height: 33px;
+  font-size: 24px;
+  color: gray;
+}
+
+.imgg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgg img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 16px;
+  margin: 30px;
+  height: 650px;
+}
+.imgg h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: absolute;
+  color: white;
+  font-size: 300px;
+  font-weight: 730;
+  left: 25px;
+  bottom: 0px;
 }/*# sourceMappingURL=style.css.map */
