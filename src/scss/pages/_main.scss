@@ -466,6 +466,7 @@ main{
         }
     }
     .card{
+
         .offcanvas.offcanvas-end.j{
             background-color: black;
             width: 500px;
@@ -596,6 +597,7 @@ main{
             }
             
         }
+
         border-radius: 15px;
         overflow: hidden;
         border: 0px;
@@ -631,9 +633,12 @@ main{
             background-color: black;
             padding: 10px;
             color: white;
+
             display: flex;
             align-items: center;
             height: 80px;
+
+
             border-radius: 100%;
             overflow: hidden;
             &:hover{
@@ -839,7 +844,10 @@ main{
     display: flex;
     margin-top: 50px;
     justify-content: space-evenly;
+
     margin-bottom: 60px;
+
+
     .nintendo{
         .rel{
             position: relative;
@@ -871,6 +879,7 @@ main{
             margin-top: 17px;
         }
     }
+
 }
 .yaddan{
     display: flex;
@@ -887,4 +896,5 @@ main{
         color: white;
         height: 50px;
     }
+
 }
