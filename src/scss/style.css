@@ -1995,4 +1995,483 @@ main {
 }
 .sonbtn:hover {
   background-color: green;
+}
+
+.rowbir {
+  display: flex;
+}
+.rowbir .sol {
+  margin: 30px;
+  padding-right: 200px;
+}
+.rowbir .sol .game-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.rowbir .sol .game-info-grid .info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+.rowbir .sol .game-info-grid .info-item .icon {
+  font-size: 45px;
+  color: #4f4f4f;
+}
+.rowbir .sol .game-info-grid .info-item .label {
+  font-size: 20px;
+  color: #aaa;
+}
+.rowbir .sol .game-info-grid .info-item .value {
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+.rowbir .sol .share-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.rowbir .sol .share-section span {
+  font-weight: 500;
+  color: #ccc;
+}
+.rowbir .sol .share-section a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+.rowbir .sol .share-section a img {
+  width: 34px;
+}
+.rowbir .sol .share-section a:hover {
+  color: #7c4dff;
+}
+.rowbir .sol .share-section .icon {
+  font-style: normal;
+}
+.rowbir .sol .product-title {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.rowbir .sol .subtitle {
+  font-size: 30px;
+  color: #999;
+  margin-bottom: 10px;
+}
+.rowbir .sol .price {
+  color: limegreen;
+  font-size: 34px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.rowbir .sol .tax {
+  color: #aaa;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+.rowbir .sol .timer-section {
+  margin-bottom: 20px;
+}
+.rowbir .sol .timer-section .hurry {
+  font-weight: 600;
+  color: red;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.rowbir .sol .timer-section .timer {
+  display: flex;
+  gap: 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.rowbir .sol .timer-section .timer .time-box {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.rowbir .sol .timer-section .timer .time-box span {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+.rowbir .sol .progress-wrapper {
+  margin-bottom: 20px;
+}
+.rowbir .sol .progress-wrapper p {
+  color: white;
+  font-size: 25px;
+}
+.rowbir .sol .progress-wrapper .progress-bar {
+  background-color: #333;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 5px 0;
+}
+.rowbir .sol .progress-wrapper .progress-bar .progress {
+  background-color: limegreen;
+  height: 100%;
+  transition: width 0.4s ease-in-out;
+}
+.rowbir .sol .progress-wrapper .sold-count {
+  text-align: right;
+  font-size: 22px;
+  color: white;
+}
+.rowbir .sol .description {
+  font-size: 20px;
+  color: #bbb;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.rowbir .sol .buy-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.rowbir .sol .buy-section .quantity {
+  display: flex;
+  border: 1px solid #555;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.rowbir .sol .buy-section .quantity button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 20px 22px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.rowbir .sol .buy-section .quantity button:hover {
+  background-color: #444;
+}
+.rowbir .sol .buy-section .quantity input {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 50px;
+  text-align: center;
+  font-size: 24px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+}
+.rowbir .sol .buy-section .btn-cart {
+  background-color: #00664d;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  border: none;
+  font-size: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.rowbir .sol .buy-section .btn-cart:hover {
+  background-color: rgb(0, 153, 115.5);
+}
+.rowbir .sag {
+  display: flex;
+  flex-direction: column;
+}
+.rowbir .sag img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 30px;
+  border-radius: 20px;
+  width: 900px;
+}
+
+.saga {
+  background-color: black;
+}
+.saga .as {
+  display: flex;
+  padding: 30px;
+  padding-top: 100px;
+}
+.saga .as a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-right: 35px;
+}
+.saga .as .nav-link {
+  color: gray;
+}
+.saga .wuchang {
+  margin: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 70px;
+  background-color: #222;
+  border-radius: 20px;
+}
+.saga .wuchang h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  padding: 30px;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.saga .wuchang .tri {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.saga .wuchang .tri .cardd {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.saga .wuchang .tri .cardd img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-radius: 20px;
+}
+.saga .wuchang .tri .cardd h2 {
+  font-size: 33px;
+  font-weight: 650;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.saga .wuchang .tri .cardd p {
+  font-size: 23px;
+  color: gray;
+}
+
+.zenitsu .brif {
+  position: relative;
+}
+.zenitsu .brif img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 1900px;
+  height: 700px;
+}
+.zenitsu .brif h1 {
+  color: limegreen;
+  position: absolute;
+  top: 150px;
+  font-size: 30px;
+  left: 30px;
+  font-weight: 700;
+}
+.zenitsu .brif h2 {
+  color: white;
+  top: 200px;
+  font-weight: 730;
+  font-size: 50px;
+  position: absolute;
+  left: 30px;
+}
+.zenitsu .brif p {
+  width: 630px;
+  color: gray;
+  font-size: 20px;
+  top: 150px;
+  right: 30px;
+  position: absolute;
+}
+
+.related {
+  margin: 30px;
+  color: white;
+  font-size: 60px;
+  margin-top: 90px;
+  font-weight: 550;
+  margin-bottom: 45px;
+}
+
+.rowshop {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 30px;
+  justify-content: center;
+}
+.rowshop .card {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 0px;
+  height: 670px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j {
+  background-color: black;
+  width: 500px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-header.j img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .product-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price {
+  margin-bottom: 5px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .price .new-price {
+  font-size: 32px;
+  color: pink;
+  font-weight: bold;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating {
+  margin: 10px 0;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .stars {
+  color: #f4c542;
+  font-size: 18px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .rating .review {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .description {
+  color: #999;
+  font-size: 15px;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock {
+  color: #4caf50;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .stock .check {
+  margin-right: 5px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity {
+  background: #1e1e1e;
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 8px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .quantity span {
+  font-size: 16px;
+  padding: 0 5px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart {
+  background: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .cart-actions .add-to-cart:hover {
+  background: #7c3aed;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta {
+  font-size: 24px;
+  color: #ccc;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share {
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon {
+  font-size: 16px;
+  color: #ccc;
+  cursor: pointer;
+}
+.rowshop .card .offcanvas.offcanvas-end.j .offcanvas-body.j .meta .share .icon:hover {
+  color: #fff;
+}
+.rowshop .card img {
+  display: block;
+  position: relative;
+}
+.rowshop .card .butons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  left: 70px;
+  top: 200px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.rowshop .card .butons:hover {
+  opacity: 1;
+}
+.rowshop .card button {
+  border: 0px;
+  font-size: 60px;
+  background-color: black;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.rowshop .card button:hover {
+  scale: 1.05;
+}
+.rowshop .card .card-body {
+  background-color: black;
+}
+.rowshop .card .card-body h5 {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.rowshop .card .card-body p {
+  font-size: 23px;
+}
+.rowshop .card .card-body h3 {
+  margin-top: 30px;
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.dots {
+  text-align: center;
+  margin-bottom: 60px;
 }/*# sourceMappingURL=style.css.map */
