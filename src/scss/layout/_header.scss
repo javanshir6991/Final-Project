@@ -246,11 +246,14 @@ header{
             font-size: 40px;
             font-weight: 700;
             margin: 30px;
+            padding-bottom: 0px;
         
         }
         .category{
             display: flex;
             flex-direction: row;
+            padding-top: 0px;
+            margin-top: 0px;
             .dropdown{
                 button{
                     border-radius: 0px;
@@ -282,6 +285,12 @@ header{
                 padding-left: 17px;
             }
             button{
+               
+                font-size: 20px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 background-color: $green-dark;
                 color: white;
                 border: 0px;
