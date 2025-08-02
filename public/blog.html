@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="shortcut icon" href="https://i.pinimg.com/736x/2f/cc/72/2fcc721f485e1de6cc67746bc6f64594.jpg"
+    type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/scss/style.css">
+</head>
+<body>
+
+    <header>
+    <nav class="navbar fixed-top bg-body-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img
+            src="https://xstore.b-cdn.net/elementor3/games-dark/wp-content/uploads/sites/6/2024/07/Logo.png" alt=""></a>
+        <div class="hrefs">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About us</a>
+          <a href="./shop.html">Shop</a>
+          <a href="./faq.html">FAQs</a>
+          <a href="./contacts.html">Contacts</a>
+
+        </div>
+        <h6>|</h6>
+
+        <button class="btn btn-primar custom" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+          aria-controls="staticBackdrop">
+          <img src="../src/assets/search-interface-symbol (1).png" alt=""><span>Search</span>
+        </button>
+
+        <div class="offcanvas offcanvas-top custom" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+          aria-labelledby="staticBackdropLabel">
+          <div class="offcanvas-header custom">
+            <h4>What Are You Looking For?</h4>
+
+            <div class="category">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  All categories
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action RPG</a></li>
+                  <li><a class="dropdown-item" href="#">Multiplayer</a></li>
+                  <li><a class="dropdown-item" href="#">Indie</a></li>
+                  <li><a class="dropdown-item" href="#">Retro</a></li>
+                  <li><a class="dropdown-item" href="#">MMO RPG</a></li>
+                  <li><a class="dropdown-item" href="#">Platformer</a></li>
+                  <li><a class="dropdown-item" href="#">Strategy</a></li>
+                  <li><a class="dropdown-item" href="#">Third Person Shooter</a></li>
+                  <li><a class="dropdown-item" href="#">First Person Shooter</a></li>
+                </ul>
+              </div>
+              <input type="text" placeholder="Search for products">
+              <button>SEARCH</button>
+            </div>
+            <div class="trend">
+              <span>TRENDING SEARCHES:</span>
+              <button>Action</button>
+              <button>Platformer</button>
+              <button>Racing</button>
+              <button>Football</button>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body custom">
+            <h1 class="pop">Popular Categories</h1>
+            <div class="roww">
+              <div class="cartt">
+                <img src="https://i0.wp.com/aiptcomics.com/wp-content/uploads/2024/09/iron-man-2024-min.png?fit=2084%2C1172&ssl=1" alt="">
+                <h1>ACTION RPG</h1>
+                <p>4 products</p>
+              </div>
+              <div class="cartt">
+                <img src="https://i0.wp.com/aiptcomics.com/wp-content/uploads/2024/09/iron-man-2024-min.png?fit=2084%2C1172&ssl=1" alt="">
+                <h1>ACTION RPG</h1>
+                <p>4 products</p>
+              </div>
+              <div class="cartt">
+                <img src="https://i0.wp.com/aiptcomics.com/wp-content/uploads/2024/09/iron-man-2024-min.png?fit=2084%2C1172&ssl=1" alt="">
+                <h1>ACTION RPG</h1>
+                <p>4 products</p>
+              </div>
+              <div class="cartt">
+                <img src="https://i0.wp.com/aiptcomics.com/wp-content/uploads/2024/09/iron-man-2024-min.png?fit=2084%2C1172&ssl=1" alt="">
+                <h1>ACTION RPG</h1>
+                <p>4 products</p>
+              </div>
+
+              <div class="cartt">
+                <img src="https://i0.wp.com/aiptcomics.com/wp-content/uploads/2024/09/iron-man-2024-min.png?fit=2084%2C1172&ssl=1" alt="">
+                <h1>ACTION RPG</h1>
+                <p>4 products</p>
+              </div>
+              <div class="cartt">
+                <img src="https://i0.wp.com/aiptcomics.com/wp-content/uploads/2024/09/iron-man-2024-min.png?fit=2084%2C1172&ssl=1" alt="">
+                <h1>ACTION RPG</h1>
+                <p>4 products</p>
+              </div>
+            </div>
+            <button class="last">View All Categories</button>
+          </div>
+        </div>
+
+        <div class="support">
+          <h1>Support 24/7</h1>
+          <p>+12 007-499-444</p>
+        </div>
+
+        <div class="btn-group">
+          <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            USD
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="">USD</a></li>
+            <li><a href="">EUR</a></li>
+            <li><a href="">CAD</a></li>
+            <li><a href="">AUD</a></li>
+          </ul>
+        </div>
+
+        <button class="btn-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+          aria-controls="offcanvasWithBothOptions"><img src="../src/assets/add-user.png" alt=""><span>Sign
+            In</span></button>
+
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <div class="sign">
+              <img src="../src/assets/add-user.png" alt=""><span>SIGN IN</span>
+            </div>
+
+
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="mb-3">
+              <label for="basic-url" class="form-label">Username or email *</label>
+              <div class="input-group">
+
+                <input type="email" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+              </div>
+              <div class="form-text" id="basic-addon4"></div>
+            </div>
+            <div class="mb-3">
+              <label for="basic-url" class="form-label">Password *</label>
+              <div class="input-group">
+
+                <input type="password" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+              </div>
+              <div class="form-text" id="basic-addon4"></div>
+            </div>
+            <input type="checkbox" name="" id="">
+            <span>Remember me</span>
+            <br>
+            <hr>
+
+
+            <button class="loqin">Login</button>
+            <hr>
+
+            <a href="">Lost your password ?</a>
+
+          </div>
+        </div>
+
+        <button class="shop-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"><img src="../src/assets/shopping-bag (3).png" alt=""></button>
+
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+          <div class="offcanvas-header">
+            <img class="bag-img" src="../src/assets/shopping-bag (3).png" alt="">
+            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">SHOPPING CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+
+            <h3>No products in the cart.</h3>
+            <hr>
+            <br>
+            <button class="cart-btn">Return To Shop</button>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+     <div class="page">
+    <nav class="breadcrumb">
+      <a href="#">Home ></a> &gt; 
+      <a href="#">Blog ></a> &gt; 
+      <span>Playstation</span>
+    </nav>
+
+    <div class="contentt">
+      <main class="mainn">
+        <div class="badge">Playstation</div>
+        <img src="https://images.hdqwalls.com/download/2025-senuas-saga-hellblade-ii-sn-1920x1080.jpg" alt="Game Image" class="imagee" />
+        <h4>Perfecting Souls-Like Games: The Rise of a Winning Formula Gaming</h4>
+        <p>📅 August 7, 2024
+/
+Posted by
+rosetyler
+/
+👁774
+/
+0</p>
+<p class="pee">
+    Lorem ipsum odor amet, consectetuer adipiscing elit. Purus sem magna dis; per justo feugiat. Velit eros ornare libero nisl placerat nisl porttitor elementum. Tellus fames condimentum facilisi curae nullam. Dapibus felis pulvinar nec, efficitur primis platea eget. Justo hendrerit accumsan magna malesuada platea; habitasse conubia. Eget himenaeos dui vulputate bibendum finibus suspendisse litora tellus elit. Curae ligula dolor eget ad montes aenean metus. Dis massa congue netus euismod adipiscing taciti non est.
+Dapibus aptent magnis augue class penatibus porttitor.
+<br><br> Mauris inceptos nascetur himenaeos elit rutrum sem netus rutrum. Rutrum integer varius lacus tellus egestas vel viverra. Nulla maecenas integer facilisis vulputate rutrum phasellus. Primis vel at venenatis nulla mus dui pretium. Vehicula in curabitur; accumsan suscipit blandit ad vulputate. Vehicula bibendum condimentum nibh curae libero pellentesque tincidunt class purus. Hendrerit ligula venenatis tempus blandit malesuada platea.
+<br><br> Ultrices orci sed lacinia nibh quisque integer.
+Dictum efficitur aliquet elementum maximus tristique eget. Senectus curae ex senectus at pulvinar massa, volutpat dui varius. Commodo facilisis luctus gravida molestie dui, leo ultrices sociosqu. Cursus amet consequat finibus rhoncus primis. Dapibus magnis turpis torquent curabitur facilisi mi blandit rhoncus. Duis duis curae urna fames diam convallis euismod facilisis magnis. Mus orci elit nullam potenti mi bibendum. Purus phasellus lacinia fermentum enim ipsum aptent molestie. Pulvinar risus vel sagittis non ridiculus etiam penatibus.
+Conubia feugiat commodo 
+<br><br>scelerisque nulla semper eget tempus hac. Diam nisl parturient vehicula pretium auctor justo sapien odio. Sapien tincidunt himenaeos neque eget amet primis nullam condimentum. Curae lobortis sociosqu morbi ullamcorper sapien volutpat erat sem urna. Finibus fames iaculis purus tempor cursus ultrices vivamus. Nunc cras parturient; litora dictum ex dictum. Quis non venenatis leo placerat tempor porta eget ante amet. Pharetra bibendum conubia interdum consectetur, egestas interdum a?
+</p>
+<div class="duyemler">
+    <a href="">✖</a>
+    <a href="">✖</a>
+    <a href="">✖</a>
+    <a href="">✖</a>
+    <a href="">✖</a>
+</div>
+      </main>
+
+      <aside class="sidebar">
+        <a href="#" class="back">&lt; Return to previous page</a>
+
+        <div class="search">
+          <input type="text" placeholder="Search..." />
+          <button><img src="../src/assets/search-interface-symbol (1).png" alt=""></button>
+        </div>
+
+        <div class="posts">
+          <h3>Recent Posts</h3>
+          <ul>
+            <li>Perfecting Souls–Like Games: The Rise of a WinningFormula Gaming</li>
+            <li>Difficulty, Deception and Death: The Design of aSouls–Like</li>
+            <li>Game Taxonomy Transform Game Development: Here’s How</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+          </ul>
+        </div>
+
+        <div class="comments">
+          <h3>Recent Comments</h3>
+          <ul>
+            <!-- Add comments if needed -->
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <section class="author-section">
+  <h2 class="autor">About author</h2>
+  <div class="author">
+    <img src="https://flash.comiccruncher.com/images/characters/dcef9cb6.jpg" alt="Author Image" />
+    <div class="author-info">
+      <strong>rosetyler</strong>
+      <p>
+        There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going there isn’t anything embarrassing hidden in the middle of text.
+      </p>
+      <a href="#">Other posts by rosetyler</a>
+    </div>
+  </div>
+</section>
+
+<section class="related-posts">
+  <h2>Related posts</h2>
+  <div class="related-card">
+    <img src="https://flash.comiccruncher.com/images/characters/dcef9cb6.jpg" alt="Post Image" />
+    <div class="related-content">
+      <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</h3>
+      <p class="meta">
+        <span>📅 August 7, 2024</span>
+        <span>💬 0</span>
+      </p>
+      <p>
+        Lorem ipsum dolor amet, consectetur adipiscing elit. Congue hac et dis cursus ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dolorem esse deserunt, sed nihil officia consequuntur facere eveniet a delectus consectetur quidem cumque eaque, doloribus laudantium asperiores quae itaque nobis.
+      </p>
+      <a href="#" class="read-more">Continue Reading</a>
+    </div>
+  </div>
+</section>
+
+<section class="comments-section">
+  <h2>Add comment</h2>
+  <p class="note">Your email address will not be published. Required fields are marked</p>
+
+  <form class="comment-form">
+    <textarea placeholder="Comment" required></textarea>
+
+    <div class="form-row">
+      <input type="text" placeholder="Your name (required)" required />
+      <input type="email" placeholder="Your email (required)" required />
+      <input type="text" placeholder="Your website" />
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" id="save-info" />
+      <label for="save-info">Save my name, email, and website in this browser for the next time I comment.</label>
+    </div>
+
+    <button type="submit">Post Comment</button>
+  </form>
+</section>
+  </main>
+<footer>
+    
+    <section class="first">
+      <div class="x-store">
+        <img src="https://xstore.b-cdn.net/elementor3/games-dark/wp-content/uploads/sites/6/2024/07/Logo.png" alt="">
+        <p>Get notified about new product, tips, updates, and tutorials. You can always unsubscribe. No spam.</p>
+        <div class="subscribe-form">
+  <input type="email" placeholder="Your Email" />
+  <button type="submit">Subscribe</button>
+</div>
+      </div>
+      <div class="navigator-b">
+        <h1>NAVIGATION</h1>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+      </div>
+      <div class="navigator">
+        <h1>COOPERATION</h1>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+      </div>
+      <div class="navigator">
+        <h1>CATEGORIES</h1>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+        <a href="">Sellers Support</a>
+      </div>
+    </section>
+    <section class="second">
+      <div class="drop">
+              <div class="btn-group dropend">
+  <button type="button" class="btn btn-secondary">
+    English
+  </button>
+  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropend</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="">Russian</a></li>
+    <li><a href="">French</a></li>
+    <li><a href="">German</a></li>
+    <li><a href="">Mandarin</a></li>
+    
+  </ul>
+</div>
+      <div class="btn-group dropend">
+  <button type="button" class="btn btn-secondary">
+    English
+  </button>
+  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+    <span class="visually-hidden">Toggle Dropend</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="">Russian</a></li>
+    <li><a href="">French</a></li>
+    <li><a href="">German</a></li>
+    <li><a href="">Mandarin</a></li>
+    
+  </ul>
+</div>
+      </div>
+
+
+<div class="visa">
+  <a href=""><img src="https://www.svgrepo.com/show/328144/visa.svg" alt=""></a>
+  <a href=""><img src="https://www.svgrepo.com/show/328144/visa.svg" alt=""></a>
+  <a href=""><img src="https://www.svgrepo.com/show/328144/visa.svg" alt=""></a>
+  <a href=""><img src="https://www.svgrepo.com/show/328144/visa.svg" alt=""></a>
+  
+
+</div>
+<div class="instagram">
+  <a href=""><img src="https://www.svgrepo.com/show/452231/instagram.svg" alt=""></a>
+  <a href=""><img src="https://www.svgrepo.com/show/452231/instagram.svg" alt=""></a>
+  <a href=""><img src="https://www.svgrepo.com/show/452231/instagram.svg" alt=""></a>
+  <a href=""><img src="https://www.svgrepo.com/show/452231/instagram.svg" alt=""></a>
+  
+
+</div>
+    </section>
+    <section class="third">
+      <span>© 2024 XStore Gaming. Powered by Wordpress</span>
+      <div class="about">
+        <a href="">Newsroom</a>
+        <a href="">Newsroom</a>
+        <a href="">Newsroom</a>
+        <a href="">Newsroom</a>
+      </div>
+      <div class="about">
+        <a href="">Policy</a>
+        <a href="">Policy</a>
+        <a href="">Refund Policy</a>
+        <a href="">Refund Policy</a>
+      
+      </div>
+    </section>
+  </footer>
+    
+</body>
+</html>
