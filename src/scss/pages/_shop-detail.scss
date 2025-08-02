@@ -1,6 +1,18 @@
 .rowbir{
     display: flex;
+        @media (max-width: 576px) {
+       
+        flex-direction: column;
+       
+    }
+    
     .sol{
+          @media (max-width: 576px) {
+       
+        padding: 0px;
+        margin: 30px;
+        width: 500px;
+    }
         margin: 30px;
         padding-right: 200px;
         .product-container {
@@ -14,6 +26,9 @@
   margin-bottom: 30px;
 
   .info-item {
+        @media (max-width: 576px) {
+        display: none;
+    }
     display: flex;
     align-items: flex-start;
     gap: 15px;
@@ -220,6 +235,10 @@
         display: flex;
         flex-direction: column;
        img{
+            @media (max-width: 576px) {
+       
+        width: 500px;
+    }
          object-fit: cover;
          margin: 30px;
          border-radius: 20px;
@@ -247,6 +266,13 @@
         }
     }
     .wuchang{
+          @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+  
+      
+        width: 500px;
+    }
         margin: 30px;
         margin-bottom: 0px;
         padding-bottom: 70px;
@@ -277,6 +303,10 @@
                     border-radius: 20px;
                 }
                 h2{
+                      @media (max-width: 576px) {
+        font-size: 20px;
+       
+    }
                     font-size: 33px;
                     font-weight: 650;
                     color: white;
@@ -284,6 +314,10 @@
                     padding-bottom: 20px;
                 }
                 p{
+                      @media (max-width: 576px) {
+        font-size: 14px;
+      
+    }
                     font-size: 23px;
                     color: gray;
                 }
@@ -295,6 +329,13 @@
    .brif{
     position: relative;
     img{
+          @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+        padding: 0px;
+        margin: 30px;
+        width: 500px;
+    }
         display: block;
         object-fit: cover;
         width: 1900px;
@@ -308,9 +349,19 @@
         top: 150px;
         font-size: 30px;
         left: 30px;
+            @media (max-width: 576px) {
+        font-size: 20px;
+        left: 50px;
+        
+    }
         font-weight: 700;
     }
     h2{
+          @media (max-width: 576px) {
+        font-size: 20px;
+        left: 50px;
+       
+    }
         color: white;
         top: 200px;
         font-weight: 730;
@@ -319,6 +370,12 @@
         left: 30px;
     }
     p{
+          @media (max-width: 576px) {
+        font-size: 17px;
+       top: 300px;
+       width: 420px;
+       right: 50px;
+    }
         width: 630px;
         color: gray;
         font-size: 20px;
@@ -539,6 +596,9 @@
   display: flex;
   align-items: center;
   gap: 25px;
+      @media (max-width: 576px) {
+        flex-wrap: wrap;
+    }
   margin: 30px;
 
   justify-content: center;

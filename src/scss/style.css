@@ -69,9 +69,19 @@ header .container-fluid {
   padding-left: 50px;
   padding-right: 30px;
 }
+@media (max-width: 576px) {
+  header .container-fluid {
+    width: 520px;
+  }
+}
 header .container-fluid .hrefs {
   display: flex;
   gap: 30px;
+}
+@media (max-width: 576px) {
+  header .container-fluid .hrefs {
+    display: none;
+  }
 }
 header .container-fluid .hrefs a {
   font-size: 23px;
@@ -90,6 +100,11 @@ header .container-fluid .search {
   display: flex;
   align-items: center;
   align-items: center;
+}
+@media (max-width: 576px) {
+  header .container-fluid .search {
+    display: none;
+  }
 }
 header .container-fluid .search button {
   display: flex;
@@ -114,6 +129,11 @@ header .container-fluid .support {
   gap: 12px;
   align-items: end;
 }
+@media (max-width: 576px) {
+  header .container-fluid .support {
+    display: none;
+  }
+}
 header .container-fluid .support h1 {
   font-size: 20px;
   color: #00ff88;
@@ -123,6 +143,11 @@ header .container-fluid .support p {
   font-size: 26px;
   color: white;
   font-weight: 800;
+}
+@media (max-width: 576px) {
+  header .container-fluid .btn-group {
+    display: none;
+  }
 }
 header .container-fluid .btn-group button {
   background-color: #00664d;
@@ -149,6 +174,11 @@ header .container-fluid .btn-1 {
   border: 0px;
   color: white;
 }
+@media (max-width: 576px) {
+  header .container-fluid .btn-1 {
+    display: none;
+  }
+}
 header .container-fluid .btn-1 span {
   font-size: 20px;
 }
@@ -160,6 +190,11 @@ header .container-fluid .btn-2 {
   border: 0px;
   color: white;
 }
+@media (max-width: 576px) {
+  header .container-fluid .btn-2 {
+    display: none;
+  }
+}
 header .container-fluid .btn-2 img {
   scale: 0.8;
 }
@@ -170,6 +205,11 @@ header .container-fluid .offcanvas.offcanvas-end .sign {
   display: flex;
   align-items: center;
   margin-left: 110px;
+}
+@media (max-width: 576px) {
+  header .container-fluid .offcanvas.offcanvas-end .sign {
+    display: none;
+  }
 }
 header .container-fluid .offcanvas.offcanvas-end .sign span {
   font-size: 20px;
@@ -216,6 +256,11 @@ header .container-fluid .shop-btn {
   background-color: black;
   border: 0px;
   color: white;
+}
+@media (max-width: 576px) {
+  header .container-fluid .shop-btn {
+    display: none;
+  }
 }
 header .container-fluid .shop-btn img {
   scale: 0.8;
@@ -392,6 +437,12 @@ footer {
   padding-top: 70px;
   padding-bottom: 60px;
 }
+@media (max-width: 576px) {
+  .first {
+    flex-direction: column;
+    padding: 0px;
+  }
+}
 .first .x-store {
   width: 400px;
   margin-left: 30px;
@@ -409,6 +460,12 @@ footer {
   padding: 5px;
   border-radius: 8px;
   margin-top: 40px;
+}
+@media (max-width: 576px) {
+  .first .x-store .subscribe-form {
+    flex-direction: column;
+    padding: 0px;
+  }
 }
 .first .x-store .subscribe-form input {
   background: transparent;
@@ -489,6 +546,12 @@ footer {
   padding: 60px 30px;
   border-top: 1px solid #222;
 }
+@media (max-width: 576px) {
+  .second {
+    flex-direction: column;
+    padding: 0px;
+  }
+}
 .second .drop {
   display: flex;
   gap: 20px;
@@ -535,6 +598,12 @@ footer {
   justify-content: space-between;
   padding: 60px 30px;
 }
+@media (max-width: 576px) {
+  .third {
+    flex-direction: column;
+    padding: 0px;
+  }
+}
 .third span {
   font-size: 20px;
   color: gray;
@@ -564,6 +633,11 @@ main {
   margin: 0 auto;
   position: relative;
 }
+@media (max-width: 576px) {
+  .karusel {
+    width: 500px;
+  }
+}
 .karusel .carousel-item.active {
   position: relative;
 }
@@ -576,6 +650,11 @@ main {
   position: absolute;
   top: 90px;
   right: 110px;
+}
+@media (max-width: 576px) {
+  .karusel .carousel-item.active .absolute {
+    display: none;
+  }
 }
 .karusel .carousel-item.active .absolute h1 {
   font-size: 40px;
@@ -618,6 +697,11 @@ main {
      object-fit: cover;
   height: 700px;
 }
+@media (max-width: 576px) {
+  .karusel img {
+    width: 500px;
+  }
+}
 
 .buttons {
   display: flex;
@@ -625,6 +709,15 @@ main {
   margin: 30px;
   margin-bottom: 90px;
   gap: 20px;
+}
+@media (max-width: 576px) {
+  .buttons {
+    font-size: 20px;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+    flex-wrap: wrap;
+  }
 }
 .buttons button {
   width: 700px;
@@ -638,6 +731,11 @@ main {
   padding: 22px;
   font-size: 20px;
 }
+@media (max-width: 576px) {
+  .buttons button {
+    width: 150px;
+  }
+}
 .buttons button:hover {
   background-color: #21c064;
   box-shadow: 0 0 15px #21c064, 0 0 30px rgba(33, 192, 100, 0.4);
@@ -648,6 +746,11 @@ main {
 }
 .buttons button svg {
   fill: #00ff88;
+}
+@media (max-width: 576px) {
+  .buttons button svg {
+    scale: 2;
+  }
 }
 
 .recent {
@@ -666,6 +769,11 @@ main {
   margin-left: 1250px;
   padding: 10px;
 }
+@media (max-width: 576px) {
+  .dis {
+    display: none;
+  }
+}
 .dis:hover {
   background-color: rgba(33, 192, 100, 0.4);
 }
@@ -674,11 +782,24 @@ main {
   display: flex;
   margin-bottom: 190px;
 }
+@media (max-width: 576px) {
+  .ghost {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    width: 500px;
+  }
+}
 .ghost .ghost-left {
   display: flex;
   flex-wrap: wrap;
   width: 1200px;
   height: 300px;
+}
+@media (max-width: 576px) {
+  .ghost .ghost-left {
+    display: none;
+  }
 }
 .ghost .ghost-left .card.mb-3 {
   border-radius: 25px;
@@ -718,6 +839,17 @@ main {
   overflow: hidden;
   font-family: "Arial", sans-serif;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 576px) {
+  .ghost .ghost-right .dragon-card {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 130px;
+    width: 500px;
+    margin-left: 40px;
+    height: 500px;
+  }
 }
 .ghost .ghost-right .dragon-card .background-image {
   position: absolute;
@@ -819,6 +951,15 @@ main {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 576px) {
+  .sale {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .sale .card.mb-3 {
   border-radius: 8px;
   border: 2px solid gray;
@@ -899,11 +1040,29 @@ main {
   display: flex;
   align-items: center;
 }
+@media (max-width: 576px) {
+  .race {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .race img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 3000px;
   height: 600px;
+}
+@media (max-width: 576px) {
+  .race img {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
 }
 .race .racing {
   height: 640px;
@@ -955,6 +1114,15 @@ main {
   justify-content: space-around;
   margin-top: 70px;
 }
+@media (max-width: 576px) {
+  .raw, .time {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .raw .leo, .time .leo {
   position: relative;
 }
@@ -998,6 +1166,11 @@ main {
   overflow: hidden;
   border: 0px;
   height: 670px;
+}
+@media (max-width: 576px) {
+  .raw .card, .time .card {
+    display: none;
+  }
 }
 .raw .card .offcanvas.offcanvas-end.j, .time .card .offcanvas.offcanvas-end.j {
   background-color: black;
@@ -1162,12 +1335,30 @@ main {
   margin-top: 120px;
   position: relative;
 }
+@media (max-width: 576px) {
+  .elementor {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .elementor img {
   display: block;
   width: 100%;
   height: 630px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media (max-width: 576px) {
+  .elementor img {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
 }
 .elementor h1 {
   position: absolute;
@@ -1178,6 +1369,11 @@ main {
   text-shadow: 3px 3px 8px black;
   font-weight: 700;
 }
+@media (max-width: 576px) {
+  .elementor h1 {
+    display: none;
+  }
+}
 .elementor p {
   position: absolute;
   top: 360px;
@@ -1187,10 +1383,20 @@ main {
   font-weight: 600;
   text-shadow: 3px 3px 8px black;
 }
+@media (max-width: 576px) {
+  .elementor p {
+    display: none;
+  }
+}
 .elementor .join {
   position: absolute;
   bottom: 150px;
   left: 600px;
+}
+@media (max-width: 576px) {
+  .elementor .join {
+    display: none;
+  }
 }
 .elementor .join a {
   font-size: 34px;
@@ -1304,12 +1510,32 @@ main {
   margin-left: 30px;
   margin-top: 200px;
 }
+@media (max-width: 576px) {
+  .from-blog {
+    font-size: 50px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 
 .from {
   display: flex;
   margin-top: 50px;
   justify-content: space-evenly;
   margin-bottom: 60px;
+}
+@media (max-width: 576px) {
+  .from {
+    flex-direction: column;
+    width: 500px;
+  }
+}
+@media (max-width: 576px) {
+  .from .nintendo {
+    margin-top: 40px;
+  }
 }
 .from .nintendo .rel {
   position: relative;
@@ -1346,6 +1572,11 @@ main {
   justify-content: space-between;
   align-items: flex-end;
 }
+@media (max-width: 576px) {
+  .yaddan {
+    align-items: center;
+  }
+}
 .yaddan button {
   margin-right: 30px;
   width: 200px;
@@ -1369,6 +1600,16 @@ main {
   margin-top: 250px;
   margin-bottom: 35px;
 }
+@media (max-width: 576px) {
+  .craft {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+    width: 500px;
+  }
+}
 
 .craftp {
   font-size: 25px;
@@ -1376,6 +1617,15 @@ main {
   width: 800px;
   margin: 0 auto;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .craftp {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    width: 500px;
+    margin: 0px;
+  }
 }
 
 .pic {
@@ -1445,6 +1695,15 @@ main {
   padding-top: 100px;
   transition: all 0.3s ease;
 }
+@media (max-width: 576px) {
+  .stat-box-L {
+    font-size: 20px;
+    flex-direction: column;
+    width: 500px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
 .stat-box-L .icon {
   font-size: 92px;
   color: #a77bff;
@@ -1458,6 +1717,14 @@ main {
   background: linear-gradient(90deg, #f8f8f8, #fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@media (max-width: 576px) {
+  .stat-box-L .number {
+    font-size: 60px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 .stat-box-L p {
   margin-bottom: 40px;
@@ -1529,6 +1796,14 @@ main {
   padding: 60px 30px;
   background-color: black;
 }
+@media (max-width: 576px) {
+  .numb {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
+}
 .numb .left {
   padding-right: 30px;
 }
@@ -1562,6 +1837,15 @@ main {
      object-fit: cover;
   width: 1200px;
   border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .numb .right img {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
 }
 
 .talk {
@@ -1651,6 +1935,15 @@ main {
   margin: 30px;
   margin-top: 55px;
 }
+@media (max-width: 576px) {
+  .categories {
+    font-size: 20px;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .categories .category-item {
   display: flex;
   flex-direction: column;
@@ -1662,6 +1955,16 @@ main {
   width: 200px;
   height: 200px;
   transition: filter 0.6s ease;
+}
+@media (max-width: 576px) {
+  .categories .category-item img {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 90px;
+    height: 90px;
+  }
 }
 .categories .category-item p {
   color: white;
@@ -1728,6 +2031,15 @@ main {
 
 .big {
   display: flex;
+}
+@media (max-width: 576px) {
+  .big {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
 }
 .big .filter-sidebar {
   padding: 30px;
@@ -1993,10 +2305,18 @@ main {
   border: 0px;
   margin-bottom: 90px;
 }
+@media (max-width: 576px) {
+  .sonbtn {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .sonbtn:hover {
   background-color: green;
 }
-
 
 .faq-t {
   margin-top: 220px;
@@ -2005,12 +2325,23 @@ main {
   text-align: center;
   font-weight: 700;
 }
+@media (max-width: 576px) {
+  .faq-t {
+    font-size: 50px;
+  }
+}
 
 .pe {
   margin-top: 25px;
   font-size: 25px;
   color: white;
   text-align: center;
+}
+@media (max-width: 576px) {
+  .pe {
+    font-size: 20px;
+    width: 500px;
+  }
 }
 
 .accordion.accordion-flush {
@@ -2026,6 +2357,11 @@ main {
   background-color: black;
   color: gray;
   width: 1400px;
+}
+@media (max-width: 576px) {
+  .accordion-item {
+    width: 500px;
+  }
 }
 .accordion-item .accordion-header h2 {
   background-color: black;
@@ -2048,8 +2384,22 @@ main {
   margin-top: 230px;
   margin-bottom: 70px;
 }
+@media (max-width: 576px) {
+  .row1 {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin-left: 120px;
+    width: 500px;
+  }
+}
 .row1 .alltime {
   padding-right: 320px;
+}
+@media (max-width: 576px) {
+  .row1 .alltime {
+    padding: 0px;
+  }
 }
 .row1 .alltime h1 {
   color: #00ff88;
@@ -2071,6 +2421,15 @@ main {
   line-height: 33px;
   font-size: 24px;
   color: gray;
+}
+@media (max-width: 576px) {
+  .row1 .sag {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+  }
 }
 
 .imgg {
@@ -2097,6 +2456,15 @@ main {
   left: 30px;
   bottom: 0px;
 }
+@media (max-width: 576px) {
+  .imgg h1 {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .imgg .help {
   position: absolute;
   display: flex;
@@ -2107,6 +2475,16 @@ main {
   width: 700px;
   bottom: -560px;
   right: 90px;
+}
+@media (max-width: 576px) {
+  .imgg .help {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    right: 10px;
+    width: 500px;
+  }
 }
 .imgg .help h5 {
   font-size: 60px;
@@ -2162,9 +2540,24 @@ select:focus {
   font-weight: 650;
   color: white;
 }
+@media (max-width: 576px) {
+  .newyorkh {
+    display: none;
+  }
+}
 
 .row2 {
   display: flex;
+}
+@media (max-width: 576px) {
+  .row2 {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    margin-top: 100px;
+    width: 500px;
+  }
 }
 
 .newyork1 {
@@ -2206,13 +2599,35 @@ select:focus {
   margin-top: 100px;
   height: 700px;
   margin-bottom: 80px;
-=======
+}
+@media (max-width: 576px) {
+  .map {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
+
 .rowbir {
   display: flex;
+}
+@media (max-width: 576px) {
+  .rowbir {
+    flex-direction: column;
+  }
 }
 .rowbir .sol {
   margin: 30px;
   padding-right: 200px;
+}
+@media (max-width: 576px) {
+  .rowbir .sol {
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
 }
 .rowbir .sol .game-info-grid {
   display: grid;
@@ -2225,6 +2640,11 @@ select:focus {
   display: flex;
   align-items: flex-start;
   gap: 15px;
+}
+@media (max-width: 576px) {
+  .rowbir .sol .game-info-grid .info-item {
+    display: none;
+  }
 }
 .rowbir .sol .game-info-grid .info-item .icon {
   font-size: 45px;
@@ -2402,6 +2822,11 @@ select:focus {
   border-radius: 20px;
   width: 900px;
 }
+@media (max-width: 576px) {
+  .rowbir .sag img {
+    width: 500px;
+  }
+}
 
 .saga {
   background-color: black;
@@ -2426,6 +2851,13 @@ select:focus {
   padding-bottom: 70px;
   background-color: #222;
   border-radius: 20px;
+}
+@media (max-width: 576px) {
+  .saga .wuchang {
+    font-size: 20px;
+    flex-direction: column;
+    width: 500px;
+  }
 }
 .saga .wuchang h1 {
   color: white;
@@ -2460,9 +2892,19 @@ select:focus {
   padding-top: 15px;
   padding-bottom: 20px;
 }
+@media (max-width: 576px) {
+  .saga .wuchang .tri .cardd h2 {
+    font-size: 20px;
+  }
+}
 .saga .wuchang .tri .cardd p {
   font-size: 23px;
   color: gray;
+}
+@media (max-width: 576px) {
+  .saga .wuchang .tri .cardd p {
+    font-size: 14px;
+  }
 }
 
 .zenitsu .brif {
@@ -2475,6 +2917,15 @@ select:focus {
   width: 1900px;
   height: 700px;
 }
+@media (max-width: 576px) {
+  .zenitsu .brif img {
+    font-size: 20px;
+    flex-direction: column;
+    padding: 0px;
+    margin: 30px;
+    width: 500px;
+  }
+}
 .zenitsu .brif h1 {
   color: limegreen;
   position: absolute;
@@ -2482,6 +2933,12 @@ select:focus {
   font-size: 30px;
   left: 30px;
   font-weight: 700;
+}
+@media (max-width: 576px) {
+  .zenitsu .brif h1 {
+    font-size: 20px;
+    left: 50px;
+  }
 }
 .zenitsu .brif h2 {
   color: white;
@@ -2491,6 +2948,12 @@ select:focus {
   position: absolute;
   left: 30px;
 }
+@media (max-width: 576px) {
+  .zenitsu .brif h2 {
+    font-size: 20px;
+    left: 50px;
+  }
+}
 .zenitsu .brif p {
   width: 630px;
   color: gray;
@@ -2498,6 +2961,14 @@ select:focus {
   top: 150px;
   right: 30px;
   position: absolute;
+}
+@media (max-width: 576px) {
+  .zenitsu .brif p {
+    font-size: 17px;
+    top: 300px;
+    width: 420px;
+    right: 50px;
+  }
 }
 
 .related {
@@ -2680,9 +3151,13 @@ select:focus {
   font-size: 26px;
   font-weight: 600;
 }
+@media (max-width: 576px) {
+  .rowshop {
+    flex-wrap: wrap;
+  }
+}
 
 .dots {
   text-align: center;
   margin-bottom: 60px;
-
 }/*# sourceMappingURL=style.css.map */

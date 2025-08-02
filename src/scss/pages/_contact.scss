@@ -3,8 +3,20 @@
     justify-content: center;
     align-items: center;
     margin-top: 230px;
+        @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+        padding: 0px;
+        margin-left: 120px;
+        width: 500px;
+    }
     margin-bottom: 70px;
     .alltime{
+            @media (max-width: 576px) {
+     
+        padding: 0px;
+      
+    }
         padding-right: 320px;
         h1{
             color: $green-color;
@@ -12,12 +24,20 @@
             margin-bottom: 13px;
         }
         h5{
+            
             font-size: 70px;
             color: white;
             font-weight: 650;
         }
     }
     .sag{
+            @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        width: 400px;
+    }
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,6 +66,13 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         position: absolute;
         color: white;
+            @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+        padding: 0px;
+        margin: 30px;
+        width: 500px;
+    }
         font-size: 310px;
         font-weight: 740;
         left: 30px;
@@ -53,6 +80,14 @@
     }
     .help{
         position: absolute;
+            @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+        padding: 0px;
+        margin: 30px;
+        right: 10px;
+        width: 500px;
+    }
         display: flex;
         flex-direction: column;
         background-color: black;
@@ -113,6 +148,9 @@ select:focus {
   border-color: transparent;
 }
 .newyorkh{
+        @media (max-width: 576px) {
+        display: none;
+    }
     font-size: 57px;
     margin-left: 40px;
     margin-top: 35px;
@@ -121,6 +159,14 @@ select:focus {
     color: white;
 }
 .row2{
+        @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+        padding: 0px;
+        margin: 30px;
+        margin-top: 100px;
+        width: 500px;
+    }
     display: flex;
     
 }
@@ -151,7 +197,13 @@ p{
 
 }
 .map{
-          
+              @media (max-width: 576px) {
+        font-size: 20px;
+        flex-direction: column;
+        padding: 0px;
+        margin: 30px;
+        width: 500px;
+    }
         object-fit: cover;
      width: 1840px;
         border-radius: 16px;
